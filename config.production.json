@@ -1,27 +1,23 @@
 {
-  "url": "http://localhost:10000",
+  "url": "https://facthub-blog-test.onrender.com",
   "server": {
-    "port": 10000,
+    "port": 2368,
     "host": "0.0.0.0"
   },
   "database": {
-    "client": "mysql",
+    "client": "postgres",
     "connection": {
-      "host": "mysql-db",
-      "port": 3306,
-      "user": "admin",
-      "password": "DATABASE_PASSWORD",
-      "database": "DATABASE_NAME"
+      "connectionString": "postgresql://facthub_ghost_db_user:EDIuZtYGsvVi0UeAot1TRTee4qRaMbJP@dpg-d3vhc0ripnbc739lfe60-a/facthub_ghost_db",
+      "ssl": false
     }
   },
   "mail": {
     "transport": "Direct"
   },
   "logging": {
-    "transports": [
-      "stdout"
-    ]
+    "transports": ["stdout"]
   },
+  "process": "local",
   "paths": {
     "contentPath": "/var/lib/ghost/content"
   }
