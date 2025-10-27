@@ -7,7 +7,7 @@
   "database": {
     "client": "postgres",
     "connection": {
-      "connectionString": "postgresql://ghost_db_v2_user:vgfdfki0I9HeA3h40x7xfUhHa9xBfWXs@dpg-d3vhquvdiees73f0ca70-a:5432/ghost_db_v2",
+      "connectionString": "postgresql://ghost_db_v3_user:mFPtxu3eYGFCawrIokiPL2cJzhTK9BLT@dpg-d3vi4d8dl3ps73fqsu1g-a/ghost_db_v3",
       "ssl": false
     }
   },
