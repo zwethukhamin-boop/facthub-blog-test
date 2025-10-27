@@ -7,7 +7,7 @@
   "database": {
     "client": "postgres",
     "connection": {
-      "connectionString": "postgresql://facthub_ghost_db_user:EDIuZtYGsvVi0UeAot1TRTee4qRaMbJP@dpg-d3vhc0ripnbc739lfe60-a/facthub_ghost_db",
+      "connectionString": "postgresql://ghost_db_v2_user:vgfdfki0I9HeA3h40x7xfUhHa9xBfWXs@dpg-d3vhquvdiees73f0ca70-a:5432/ghost_db_v2",
       "ssl": false
     }
   },
